@@ -169,6 +169,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
 .newsletter .container {
     text-align: center;
     background-color: #f3f3f3;
@@ -189,7 +197,7 @@ nav a:hover {
     padding: 10px;
     width: 250px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: none;
 }
 
 .newsletter button {
@@ -202,11 +210,11 @@ nav a:hover {
 }
 
 .newsletter button:hover {
-    background-color: #005fa3;
+    background-color: #434190;
 }
 
 footer {
-    background-color: #222;
+    background-color: #4A5568;
     color: white;
     text-align: center;
     padding: 20px;
