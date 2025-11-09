@@ -94,7 +94,7 @@ nav a:hover {
 .learn-about h2 {
     color: #48BB78;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
 }
 
@@ -135,20 +135,26 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+    
+}
+
+.testing-description {
+    flex: 1;
 }
 
 .testing .cta {
-    flex-shrink: 0;
+    margin-left: 20px;
 }
 
 .testing .btn {
     background-color: #48BB78;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 32px;
     border-radius: 5px;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
 .testing .btn:hover {
@@ -160,14 +166,26 @@ nav a:hover {
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 30px;
-    flex-wrap: wrap;
+    flex-wrap: nonwrap;
 }
 
 .stories img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
+}
+
+.stories .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .stories h3 {
@@ -187,9 +205,14 @@ nav a:hover {
 .newsletter {
     background-color: #48BB78;
     color: white;
-    padding: 40px 0;
+    padding: 50px 20px;
     text-align: center;
-    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .newsletter form {
@@ -221,10 +244,15 @@ nav a:hover {
     background-color: #434190;
 }
 
+.newsletter .message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #4A5568;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 0;
 }
